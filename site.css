@@ -1,0 +1,111 @@
+/* Styles pour la barre horizontale */
+.main-header {
+    background-color: black; /* Couleur de fond noire pour la barre */
+    color: white; /* Couleur du texte en blanc pour contraster avec le fond noir */
+    padding: 10px; /* Espace intérieur autour du contenu de l'en-tête */
+}
+
+/* Styles pour le logo */
+.logo img {
+    width: 100px; /* Ajuste la largeur du logo selon tes besoins */
+}
+
+/* Styles pour le menu déroulant */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Affiche les éléments du menu côte à côte */
+}
+
+nav ul li {
+    margin-right: 20px; /* Espacement entre les éléments du menu */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Couleur du texte des liens en blanc pour contraster avec le fond noir */
+    cursor: pointer; /* Change le curseur en pointeur pour indiquer que c'est cliquable */
+}
+
+/* Styles pour le menu déroulant */
+.dropdown-content {
+    display: none; /* Cache le menu déroulant par défaut */
+    position: absolute;
+    background-color: #110e0e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content.active {
+    display: block; /* Affiche le menu déroulant lorsque la classe "active" est présente */
+    margin-bottom: 12px;
+}
+body{
+    background-image: url(jpeg/jeux.2.jpg);
+}
+/* Styles pour les conteneurs des articles */
+.articles-container {
+    flex-wrap: wrap; /* Permet le passage à la ligne si l'espace est insuffisant */
+    justify-content: space-between; /* Répartit les articles avec un espace égal entre eux */
+}
+
+/* Styles pour les cadres des articles */
+.article-frame {
+    display: inline-block;
+    border: 1px solid #ddd; /* Bordure de 1 pixel avec couleur grise (#ddd) */
+    padding: 6px; /* Espace intérieur autour du contenu du cadre */
+    margin: 10px; /* Espacement entre les cadres d'articles */
+    width: 27%;
+}
+/* Styles pour le titre des articles */
+.article-frame h3 {
+    margin-top: 0; /* Supprime la marge par défaut au-dessus du titre */
+}
+
+/* Styles pour les images des articles */
+.article-frame img {
+    max-width: 70%; /* La largeur maximale de l'image est de 100% pour s'adapter au cadre */
+}
+
+/* Styles pour la description des articles */
+.article-frame p {
+    margin-bottom: 0; /* Supprime la marge en bas du paragraphe */
+}
+.h2{
+    color: #663232;
+    border: 1px solid #734040; /* Bordure de 1 pixel avec couleur grise (#ddd) */
+    padding: 6px; /* Espace intérieur autour du contenu du cadre */
+    width: 30%;
+    font-style: italic;/*style pour les h2*/
+}
+body{
+    background-image: url(jpeg/lac.jpg);
+    background-size: cover;
+}
+footer{
+    text-align:center;
+    font-style: italic;
+}
+h3{
+    color: rgb(17, 81, 60);
+}
+footer{
+    border: 1px solid #0b0a0a;
+    font-weight: bold;
+}
+form{
+    text-align: right;
+}
+a{
+    border: 1px dotted black;
+    color: #eee8e8;
+    background-color: #0b0a0a;
+}
+
+
+
+
+
+

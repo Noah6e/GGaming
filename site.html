@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="site.css" rel="stylesheet">
+    <title>Page d'acceuil</title>
+</head>
+<body>
+    <!--l'entete de la page-->
+    <header class="main-header">
+        <div class="logo">
+            <img src="png/logo.m.png" alt="Logo du site"></br>
+            <h2>GABON GAMING</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">ACCUEIL</a></li>
+                <li class="dropdown">
+                    <a href="#" onclick="toggleDropdown()">NOS SERVICES &#9662;</a>
+                    <ul class="dropdown-content" id="services-dropdown">
+                        <li><a href="LOCATION.html" onclick="hideDropdown()">LOCATION</a></li>
+                        <li><a href="VENTE.html" onclick="hideDropdown()">VENTE</a></li>
+                        <li><a href="live.html" onclick="hideDropdown()">VIDEO</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">CONTACTS</a></li>
+            </ul>
+        </nav>
+        <form action="/recherche" method="GET">
+            <label for="search">
+                <i class="fas fa-search"></i>
+                <span class="sr-only">Rechercher:</span>
+            </label>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+            <input type="text" id="search " name="q" placeholder="Entrez votre recherche ici">
+            <input type="submit" value="Rechercher">
+        </form>
+    </header>
+    <script>
+        function toggleDropdown() {
+            var dropdownContent = document.getElementById("services-dropdown");
+            dropdownContent.classList.toggle("active");
+        }
+        function hideDropdown() {
+            var dropdownContent = document.getElementById("services-dropdown");
+            dropdownContent.classList.remove("active");
+        }
+    </script>
+    <h2 style="text-align: center;">PLAYSTATIONS</h2>
+      <div class="article-frame">
+        <h3>Playstation 4</h3>
+        <img src="jpeg/PS4.2.jpg" alt="Article 1">
+        <p> Ps4 encore propre avec ses CD FIFA22, FIFA23, NBA2K23.</p>
+        <a href="vente.html">VENTE</a>      <a href="LOCATION.html">LOCATION</a>
+    </div>
+<!-- Cadre pour le deuxième article -->
+    <div class="article-frame">
+        <h3>Manette Ps4</h3>
+        <img src="jpeg/manette-blanche.jpg" alt="Article 2">
+        <p>Manette ps4 propre deux semaines d'utilisation.</p>
+        <a href="vente.html">VENTE</a>      <a href="Location1.html">LOCATION</a>
+    </div>
+    <!--Cadre pour le troisième article -->
+    <div class="article-frame">
+        <h3>Playstation 5</h3>
+        <img src="jpeg/PS5.12.jpg" alt="Article 3">
+        <p>Playstation 5 encore neuve sans jeux intégrés disponible a la location</p>
+        <a href="vente.html">VENTE</a>      <a href="Location2.html">LOCATION</a>
+    </div>
+    <!--Cadre pour le quatrième article-->
+    <div class="article-frame">
+        <h3>Playstation 5</h3>
+        <img src="jpeg/PS5.2.jpg" alt="Article 4">
+        <p>Playstation disponible de suite sans jeux intégrés</p>
+        <a href="vente.html">VENTE</a>      <a href="location3.html">LOCATION</a>
+    </div>
+    <!-- Cadre pour le cinquième article article -->
+    <div class="article-frame">
+        <h3>Manette ps4</h3>
+        <img src="jpeg/manette-noir.jpg" alt="Article 5">
+        <p>Manette ps4 jamais utiliser.</p>
+        <a href="vente.html">VENTE</a>      <a href="LOCATION.html">LOCATION</a>
+    </div>
+    <!-- Cadre pour le sixième article article -->
+    <div class="article-frame">
+        <h3>Manette ps4</h3>
+        <img src="jpeg/manette-ps4-bleu.jpeg" alt="Article 6">
+        <p>Manette ps4 avec toutes les touches fonctionnelles !.</p>
+        <a href="vente.html">VENTE</a>      <a href="LOCATION.html">LOCATION</a>
+    </div>
+    <div class="article-frame">
+        <h3>Manette Ps4</h3>
+        <img src="jpeg/manette-ps5.jpeg" alt="Article 7">
+        <p>Manette ps5 jamais utiliser propre !!</p>
+        <a href="vente.html">VENTE</a>      <a href="LOCATION.html">LOCATION</a>
+    </div>
+    <div class="article-frame">
+        <img src="jpeg/ds4_rouge_1.jpg" alt="Article 8">
+        <p>Manette ps4 ds4_rouge propre</p>
+        <a href="vente.html">VENTE</a>      <a href="LOCATION.html">LOCATION</a>
+    </div>
+    <div class="article-frame">
+        <img src="png/PS4.png" alt="Article 6">
+        <p>Playstation 4 pucé avec jeux integrés </p>
+        <a href="vente.html">VENTE</a>      <a href="LOCATION.html">LOCATION</a>
+    </div>
+    <h2 style="text-align: center;">XBOX</h2>
+    <!--Cadre des manettes xbox-->
+    <div class="article-frame">
+        <h3>Manette xbox 360</h3>
+        <img src="jpeg/manette-xbox.1.jpeg" alt="Article 1">
+        <p>Manette xbox 360 propre!!</p>
+        <a href="vente.html">VENTE</a>      <a href="LOCATION.html">LOCATION</a>
+    </div>
+    <!--Cadre pour le deuxième article-->
+    <div class="article-frame">
+        <h3>Xbox series X</h3>
+        <img src="jpeg/xboxs.jpg" alt="Article 2">
+        <p>Xbox series X avec 6 jeux integrés !!</p>
+        <a href="vente.html">VENTE</a>      <a href="LOCATION.html">LOCATION</a>
+    </div>
+    <!--Cadre pour le troisième article-->
+    <div class="article-frame">
+        <h3>Manette xbox one</h3>
+        <img src="jpeg/manette-xbox.jpg" alt="Article 3">
+        <p>Manette xbox encore neuve dans le carton !!</p>
+        <a href="vente.html">VENTE</a>      <a href="LOCATION.html">LOCATION</a>
+    </div>
+    <!--Cadre pour le quatrième article-->
+    <div class="article-frame">
+        <h3>Xbox 360 fat</h3>
+        <img src="jpeg/xbox.360.1.jpg" alt="Article 4">
+        <p>Xbox 360 avec 7 jeux intégrés: FIFA22, PRO22, GTA5,Naruto shippuden, etc..</p>
+        <a href="vente.html">VENTE</a>      <a href="LOCATION.html">LOCATION</a>
+    </div>
+    <!--Cadre pour le cinquième-->
+    <div class="article-frame">
+        <h3>Xbox 360 slim</h3>
+        <img src="jpeg/xbox.360.jfif" alt="Article 4">
+        <p>Xbox 360 avec 500GB de memoire</p>
+        <a href="vente.html">VENTE</a>      <a href="LOCATION.html">LOCATION</a>
+    </div>
+    <!--Cadre pour le sixième article-->
+    <div class="article-frame">
+        <h3>Manette xbox one S</h3>
+        <img src="jpeg/manette.xbox.jfif" alt="Article 5">
+        <p>Manette xbox one S neuve</p>
+        <a href="vente.html">VENTE</a>      <a href="LOCATION.html">LOCATION</a>
+    </div>
+    <div class="article-frame">
+        <h3>logo WII</h3>
+        <img src="png/PS4.png" alt="Article 6">
+        <p>Voici le logo d'une WII</p>
+        <a href="vente.html">VENTE</a>      <a href="LOCATION.html">LOCATION</a>
+    </div>
+        <div class="article-frame">
+            <h3>Un gif</h3>
+            <img src="gif/noir.gif" alt="je sais pas ce que sait">
+            <p>Voici un gif inconnu</p>
+            <a href="vente.html">VENTE</a>      <a href="LOCATION.html">LOCATION</a>
+        </div>
+
+    </div>
+    <footer>
+        <p>TOUS DROITS RESERVES MON SITE DE LOCATION EN LIGNE</p>
+        <a href="darlyekouma7@gmail.com">Mon mail</a>
+    </footer>
+
+</body>
+</html>
